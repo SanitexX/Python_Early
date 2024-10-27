@@ -3,40 +3,6 @@ direction = input("Type 'encode' to encrypt and decode to decrypt: \n").lower()
 text = input("Type youre message: \n").lower()
 shift = int(input("Type shift number: \n"))
 
-# encode
-# def encrypt(original_text, shift_amount):
-#     cypher = ""
-#     for letter in original_text:
-#       shifted_position = alpha.index(letter) + shift_amount
-#       shifted_position %= len(alpha)
-#       cypher += alpha[shifted_position]
-#     print(f"Here's youre encoded result: {cypher}")
-
-
-# encrypt(original_text = text, shift_amount = shift)
-
-# # decode
-
-# def ceaser(original_text, shift_amount, encode_or_decode):
-#     cypher = ""
-#     for letter in original_text:
-#         if encode_or_decode == "decode":
-#             shift_amount *= -1
-#         shifted_position = alpha.index(letter) + shift_amount
-#         shifted_position %= len(alpha)
-#         cypher += alpha[shifted_position]
-#     print(f"Here's your text: {cypher}")
-
-# ceaser(encode_or_decode = direction, original_text = text, shift_amount = shift)
-
-
-
-
-
-
-
-
-
 # Function to encode or decode
 def ceaser(original_text, shift_amount, encode_or_decode):
     cypher = ""
